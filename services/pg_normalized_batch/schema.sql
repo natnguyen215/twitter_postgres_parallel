@@ -84,7 +84,7 @@ CREATE TABLE tweet_media (
     id_tweets BIGINT,
     url TEXT,
     type TEXT,
-    PRIMARY KEY (id_tweets, urls)
+    PRIMARY KEY (id_tweets, url)
 );
 
 /*
